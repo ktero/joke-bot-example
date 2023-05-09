@@ -6,7 +6,7 @@ This is just a fun little project that I came up randomly while I was taking a n
 
 Note: The jokes are from JokeAPI (https://sv443.net/jokeapi/v2/). Credits to them for the jokes.
 
-### Running app locally
+### Running the discord bot locally
 
 Before you start, you'll need to install [NodeJS](https://nodejs.org/en/download/) and [create a Discord app](https://discord.com/developers/applications) with the proper permissions and pprivileged gateway intent:
 
@@ -29,7 +29,7 @@ Then navigate to its directory and install dependencies:
 cd joke-bot-example
 npm install
 ```
-### Get discord app credentials
+#### Get discord app credentials
 
 Fetch the credentials from your app's settings and add them to a `.env` file. You'll just need your bot token (`DISCORD_TOKEN`). In the provided .env file, you will see `DISCORD_TOKEN`, replace its placeholder value with your discord bot token.
 
