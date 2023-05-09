@@ -33,7 +33,7 @@ client.on('messageCreate', async (message) => {
                 message.channel.send(`...${delivery}`)
             }
         } catch (error) {
-            console.log(error)
+            console.log(`Error: ${error}`)
         }
     }
 })
