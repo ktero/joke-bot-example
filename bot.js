@@ -22,11 +22,16 @@ client.on('messageCreate', async (message) => {
 
 client.login(process.env.DISCORD_TOKEN)
 
+async function getJoke() {
+    const response = await fetch(`https://v2.jokeapi.dev/joke/Dark,Pun?blacklistFlags=nsfw,religious,political,racist,sexist,explicit`)
+    const json = await response.json()
+
+    return json
+}
 
 async function sendJoke(channel) {
     try {
-        const response = await fetch(`https://v2.jokeapi.dev/joke/Dark,Pun?blacklistFlags=nsfw,religious,political,racist,sexist,explicit`)
-        const json = await response.json()
+        const json = await getJoke()
         const joke = json.joke
 
         await channel.sendTyping()
