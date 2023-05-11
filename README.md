@@ -42,7 +42,7 @@ After your credentials are added, go ahead and run the app:
 node bot.js
 ```
 
-## How to interact with the bot
+### How to interact with the bot
 
 Make sure the bot is included in a discord server and then just type the message below in the message box.
 ```
