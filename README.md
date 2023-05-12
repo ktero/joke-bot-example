@@ -2,6 +2,8 @@
 
 This is just a fun little, basic project that I thought about randomly while I was lying in bed on a Sunday afternoon.
 
+This is an open little project so feel free to collaborate and add some new features or improvements.
+
 Note: The jokes are from JokeAPI (https://sv443.net/jokeapi/v2/). Credits to them for the jokes.
 
 ## Running the discord bot locally
